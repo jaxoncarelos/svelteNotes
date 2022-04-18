@@ -1,7 +1,6 @@
 <script>
 	import MakeNote from './MakeNote.svelte';
-import Note from './Note.svelte'
-import NoteList from './NoteList.svelte';
+	import NoteList from './NoteList.svelte';
 </script>
 
 <main>
@@ -20,6 +19,6 @@ import NoteList from './NoteList.svelte';
 		margin: 0;
 		padding: 0;
 		text-align: center;
-		color: white;
+		color: white;	
 	}
 </style>
