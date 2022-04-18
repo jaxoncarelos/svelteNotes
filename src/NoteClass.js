@@ -1,4 +1,3 @@
-import { noteList } from "./notes";
 class NoteClass
 {
     constructor(title, body, id)

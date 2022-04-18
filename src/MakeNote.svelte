@@ -1,14 +1,13 @@
 <script>
     import NoteClass from "./NoteClass.js"
     let note = new NoteClass();
-    import { noteList, createNote } from "./notes.js";
+    import { createNote } from "./notes.js";
     async function createNotes()
     {
         createNote(note.title, note.body);
         await new Promise(r => setTimeout(r, 10));
         note.title = "";
         note.body = "";
-        
     }
 </script>
 
